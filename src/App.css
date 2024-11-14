@@ -3,20 +3,16 @@ body {
 }
 
 h1 {
-  color: rgb(210, 129, 0);
+  color: rgb(136, 0, 0);
 }
 
 .banner {
   background-image: url('img/4.png');
-  /*width: 100%;
-  height: 60vh;
+  width: 100%;
   background-position: bottom;
-  align-items: center;*/
-  background-position: center;
   background-attachment: fixed;
   text-align: center;
   background-size: cover;
   background-blend-mode: soft-light;
-
-  padding: 255px 0;
+  padding: 270px 0;
 }
