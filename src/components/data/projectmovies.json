@@ -1,0 +1,113 @@
+[
+  { "id": "1", "movie-name": "Hocus Pocus", "movie-poster": "" },
+
+  { "id": "2", "movie-name": "Halloweentown", "movie-poster": "" },
+
+  { "id": "3", "movie-name": "Casper", "movie-poster": "" },
+
+  { "id": "4", "movie-name": "Practical Magic", "movie-poster": "" },
+
+  { "id": "5", "movie-name": "Corpse Bride", "movie-poster": "" },
+
+  { "id": "6", "movie-name": "Under Wraps", "movie-poster": "" },
+
+  { "id": "7", "movie-name": "Don't look under the bed", "movie-poster": "" },
+
+  { "id": "8", "movie-name": "Tower of Terror", "movie-poster": "" },
+
+  { "id": "9", "movie-name": "The Little Vampire", "movie-poster": "" },
+
+  { "id": "10", "movie-name": "Little monsters", "movie-poster": "" },
+
+  { "id": "11", "movie-name": "The Haunted Mansion", "movie-poster": "" },
+
+  { "id": "12", "movie-name": "Monsters Inc.", "movie-poster": "" },
+
+  { "id": "13", "movie-name": "Beetlejuice", "movie-poster": "" },
+
+  { "id": "14", "movie-name": "The Addams Family", "movie-poster": "" },
+
+  {
+    "id": "15",
+    "movie-name": "Mom's got a date with a Vampire",
+    "movie-poster": ""
+  },
+
+  { "id": "16", "movie-name": "Twitches", "movie-poster": "" },
+
+  { "id": "17", "movie-name": "Harry Potter", "movie-poster": "" },
+
+  {
+    "id": "18",
+    "movie-name": "Double, Double, Toil and Trouble",
+    "movie-poster": ""
+  },
+
+  { "id": "19", "movie-name": "Monster House", "movie-poster": "" },
+
+  { "id": "20", "movie-name": "Coraline", "movie-poster": "" },
+
+  { "id": "21", "movie-name": "Matilda", "movie-poster": "" },
+
+  { "id": "22", "movie-name": "Ghostbusters", "movie-poster": "" },
+
+  {
+    "id": "23",
+    "movie-name": "The Nightmare before Christmas",
+    "movie-poster": ""
+  },
+
+  { "id": "24", "movie-name": "Frankenweenie", "movie-poster": "" },
+
+  { "id": "25", "movie-name": "Edward Scissorhands", "movie-poster": "" },
+
+  { "id": "26", "movie-name": "Halloween", "movie-poster": "" },
+
+  { "id": "27", "movie-name": "Sleepy Hollow", "movie-poster": "" },
+
+  { "id": "28", "movie-name": "The Craft", "movie-poster": "" },
+
+  { "id": "29", "movie-name": "Saw", "movie-poster": "" },
+
+  { "id": "30", "movie-name": "The Exorcist", "movie-poster": "" },
+
+  { "id": "31", "movie-name": "Friday the 13th", "movie-poster": "" },
+
+  { "id": "32", "movie-name": "Chucky", "movie-poster": "" },
+
+  { "id": "33", "movie-name": "Texas Chainsaw Massacre", "movie-poster": "" },
+
+  { "id": "34", "movie-name": "Nightmare on Elm Street", "movie-poster": "" },
+
+  { "id": "35", "movie-name": "Paranormal Activity", "movie-poster": "" },
+
+  { "id": "36", "movie-name": "Scream", "movie-poster": "" },
+
+  { "id": "37", "movie-name": "The Strangers", "movie-poster": "" },
+
+  { "id": "38", "movie-name": "Poltergeist", "movie-poster": "" },
+
+  { "id": "39", "movie-name": "The Sixth Sense", "movie-poster": "" },
+
+  { "id": "40", "movie-name": "The Blair Witch Project", "movie-poster": "" },
+
+  { "id": "41", "movie-name": "Carrie", "movie-poster": "" },
+
+  { "id": "42", "movie-name": "The House on Haunted Hill", "movie-poster": "" },
+
+  { "id": "43", "movie-name": "The Amityville Horror", "movie-poster": "" },
+
+  { "id": "44", "movie-name": "Insidious", "movie-poster": "" },
+
+  { "id": "45", "movie-name": "The Shining", "movie-poster": "" },
+
+  { "id": "46", "movie-name": "The Ring", "movie-poster": "" },
+
+  { "id": "47", "movie-name": "Signs", "movie-poster": "" },
+
+  { "id": "48", "movie-name": "Evil Dead", "movie-poster": "" },
+
+  { "id": "49", "movie-name": "Final Destination", "movie-poster": "" },
+
+  { "id": "50", "movie-name": "House of the 1000 Corpses", "movie-poster": "" }
+]
