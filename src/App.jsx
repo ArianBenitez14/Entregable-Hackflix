@@ -17,6 +17,7 @@ function App() {
       const response = await fetch(`${API_URL}&page=${page}`);
       const data = await response.json();
       setMovies(data.results);
+      console.log(page);
       setFilteredMovies(data.results);
     } catch (error) {
       console.error('No se encontraron las películas: ', error);

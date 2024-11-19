@@ -2,10 +2,13 @@ import React from 'react';
 import MovieCard from './MovieCard';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies, page }) => {
   return (
     <>
-      <InfiniteScroll dataLength={movies.length} next={() => setPage + 1}>
+      <InfiniteScroll
+        dataLength={movies.length}
+        next={() => page((prev) => prev + 1)}
+      >
         {
           <div className="row no-gutters">
             {movies.map((movie) => (
@@ -21,4 +24,3 @@ const MovieList = ({ movies }) => {
 };
 
 export default MovieList;
-s;

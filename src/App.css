@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 body {
   background-color: #12100f;
@@ -10,7 +10,7 @@ h1 {
 }
 
 .banner {
-  background-image: url("img/4.png");
+  background-image: url('img/4.png');
   width: 100%;
   background-position: bottom;
   background-attachment: fixed;
@@ -31,9 +31,5 @@ h1 {
 
 .title-size {
   font-size: 700%;
-  font-family: "Nosifer", sans-serif;
-}
-
-.cards-div {
-  width: 90%;
+  font-family: 'Nosifer', sans-serif;
 }
