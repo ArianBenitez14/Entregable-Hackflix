@@ -5,35 +5,41 @@ import { Rating } from 'react-simple-star-rating';
 
 function App() {
   const [movies, setMovies] = useState([]);
+  const [displayMovies, setDisplayMovies] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState('');
-  const [filteredMovies, setFilteredMovies] = useState([]);
   const [rating, setRating] = useState(0);
   const [page, setPage] = useState(1);
 
   const API_URL = `https://api.themoviedb.org/3/discover/movie?api_key=8bf671b37acf42e92c1ce6bc24023aa6&include_adult=false&sort_by=popularity.desc&vote_count.gte=40`;
 
-  const fetchMovies = async (genre = '') => {
+  const fetchMovies = async (page, genre = '') => {
     try {
-      const response = await fetch(`${API_URL}&page=${page}`);
+      const url = genre
+        ? `${API_URL}&page=${page}&with_genres=${genre}`
+        : `${API_URL}&page=${page}`;
+      const response = await fetch(url);
       const data = await response.json();
-      setMovies(data.results);
-      console.log(page);
-      setFilteredMovies(data.results);
+      return data.results;
     } catch (error) {
-      console.error('No se encontraron las películas: ', error);
+      console.error('Error al cargar las películas: ', error);
     }
   };
 
   useEffect(() => {
-    fetchMovies();
-  }, [page]);
+    const loadMovies = async () => {
+      const newMovies = await fetchMovies(page, selectedGenre);
+      setMovies((prevMovies) => [...prevMovies, ...newMovies]);
+    };
+
+    loadMovies();
+  }, [page, selectedGenre]);
 
   const applyFilters = () => {
     let filtered = movies;
 
     if (selectedGenre) {
       filtered = filtered.filter((movie) =>
-        movie.genre_ids.includes(selectedGenre)
+        movie.genre_ids.includes(parseInt(selectedGenre))
       );
     }
 
@@ -41,12 +47,16 @@ function App() {
       const minRating = rating / 2;
       filtered = filtered.filter((movie) => movie.vote_average >= minRating);
     }
-    setFilteredMovies(filtered);
+
+    setDisplayMovies(filtered);
   };
 
   const handleGenreClick = (genreId) => {
     setSelectedGenre(genreId);
+    setMovies([]);
+    setPage(1);
   };
+
   const handleRating = (rate) => {
     setRating(rate);
   };
@@ -54,6 +64,10 @@ function App() {
   useEffect(() => {
     applyFilters();
   }, [selectedGenre, rating, movies]);
+
+  const loadMoreMovies = () => {
+    setPage((prevPage) => prevPage + 1);
+  };
 
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
@@ -114,8 +128,8 @@ function App() {
             initialValue={0}
           />
         </div>
-        {filteredMovies.length > 0 ? (
-          <MovieList movies={filteredMovies} page={setPage} />
+        {displayMovies.length > 0 ? (
+          <MovieList movies={displayMovies} loadMoreMovies={loadMoreMovies} />
         ) : (
           <p className="text-center">
             Lo sentimos, no se encontraron películas con los filtros aplicados.
