@@ -33,3 +33,7 @@ h1 {
   font-size: 700%;
   font-family: 'Nosifer', sans-serif;
 }
+
+.texto-rating {
+  color: rgb(248, 0, 0);
+}

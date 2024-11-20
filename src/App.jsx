@@ -9,6 +9,7 @@ function App() {
   const [selectedGenre, setSelectedGenre] = useState('');
   const [rating, setRating] = useState(0);
   const [page, setPage] = useState(1);
+  const [hasMore, setHasMore] = useState(true);
 
   const API_URL = `https://api.themoviedb.org/3/discover/movie?api_key=8bf671b37acf42e92c1ce6bc24023aa6&include_adult=false&sort_by=popularity.desc&vote_count.gte=40`;
 
@@ -22,20 +23,33 @@ function App() {
       return data.results;
     } catch (error) {
       console.error('Error al cargar las películas: ', error);
+      return [];
     }
   };
 
   useEffect(() => {
     const loadMovies = async () => {
       const newMovies = await fetchMovies(page, selectedGenre);
-      setMovies((prevMovies) => [...prevMovies, ...newMovies]);
+
+      if (newMovies.length === 0) {
+        setHasMore(false);
+        return;
+      }
+
+      setMovies((prevMovies) => {
+        const movieIds = prevMovies.map((movie) => movie.id);
+        const uniqueMovies = newMovies.filter(
+          (movie) => !movieIds.includes(movie.id)
+        );
+        return [...prevMovies, ...uniqueMovies];
+      });
     };
 
     loadMovies();
   }, [page, selectedGenre]);
 
   const applyFilters = () => {
-    let filtered = movies;
+    let filtered = [...movies];
 
     if (selectedGenre) {
       filtered = filtered.filter((movie) =>
@@ -55,6 +69,7 @@ function App() {
     setSelectedGenre(genreId);
     setMovies([]);
     setPage(1);
+    setHasMore(true);
   };
 
   const handleRating = (rate) => {
@@ -63,7 +78,7 @@ function App() {
 
   useEffect(() => {
     applyFilters();
-  }, [selectedGenre, rating, movies]);
+  }, [movies, selectedGenre, rating]);
 
   const loadMoreMovies = () => {
     setPage((prevPage) => prevPage + 1);
@@ -119,17 +134,26 @@ function App() {
       </div>
 
       <div className="m-5">
-        <div className="mb-4">
-          <Rating
-            onClick={handleRating}
-            size={30}
-            transition
-            allowHalfIcon
-            initialValue={0}
-          />
+        <div className="mb-4 container-fluid topbar p-2">
+          <span className="texto-rating align-middle">
+            Seleccione para filtrar por rating deseado:
+          </span>
+          <span className="align-middle">
+            <Rating
+              onClick={handleRating}
+              size={30}
+              transition
+              allowHalfIcon
+              initialValue={0}
+            />
+          </span>
         </div>
         {displayMovies.length > 0 ? (
-          <MovieList movies={displayMovies} loadMoreMovies={loadMoreMovies} />
+          <MovieList
+            movies={displayMovies}
+            loadMoreMovies={loadMoreMovies}
+            hasMore={hasMore}
+          />
         ) : (
           <p className="text-center">
             Lo sentimos, no se encontraron películas con los filtros aplicados.

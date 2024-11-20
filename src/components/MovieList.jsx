@@ -2,12 +2,12 @@ import React from 'react';
 import MovieCard from './MovieCard';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-const MovieList = ({ movies, loadMoreMovies }) => {
+const MovieList = ({ loadMoreMovies, hasMore, movies }) => {
   return (
     <InfiniteScroll
       dataLength={movies.length}
       next={loadMoreMovies}
-      hasMore={true}
+      hasMore={hasMore}
       loader={<p className="text-center">Cargando más películas...</p>}
     >
       <div className="row no-gutters">
