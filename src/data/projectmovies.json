@@ -8,344 +8,72 @@
 
   {
     "id": "2",
-    "movie-name": "Halloweentown",
-    "movie-plot": "On her 13th birthday, Marnie learns she's a witch, discovers a secret portal, and is transported to Halloweentown — a magical place where ghosts and ghouls, witches and werewolves live apart from the human world. But she soon finds herself battling wicked warlocks, evil curses, and endless surprises.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/axYFa20HjBhYFrSz5LHbWuATjGU.jpg"
-  },
-
-  {
-    "id": "3",
-    "movie-name": "Casper",
-    "movie-plot": "Casper is a kind young ghost who peacefully haunts a mansion in Maine. When specialist James Harvey arrives to communicate with Casper and his fellow spirits, he brings along his teenage daughter, Kat. Casper quickly falls in love with Kat, but their budding relationship is complicated not only by his transparent state, but also by his troublemaking apparition uncles and their mischievous antics.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/2ah8fNJFZVU3vcXhU5xfAYi2eym.jpg"
-  },
-
-  {
-    "id": "4",
-    "movie-name": "Practical Magic",
-    "movie-plot": "Sally and Gillian Owens, born into a magical family, have mostly avoided witchcraft themselves. But when Gillian's vicious boyfriend, Jimmy Angelov, dies unexpectedly, the Owens sisters give themselves a crash course in hard magic. With policeman Gary Hallet growing suspicious, the girls struggle to resurrect Angelov -- and unwittingly inject his corpse with an evil spirit that threatens to end their family line.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/AwmToSgf2IL3aHv0QRVsR5KvChv.jpg"
-  },
-
-  {
-    "id": "5",
     "movie-name": "Corpse Bride",
     "movie-plot": "In a 19th-century European village, a young man about to be married is whisked away to the underworld and wed to a mysterious corpse bride, while his real bride waits bereft in the land of the living.",
     "movie-poster": "https://image.tmdb.org/t/p/original/m6BMveplVmnBygLNihX4rcW7IR4.jpg"
   },
 
   {
-    "id": "6",
-    "movie-name": "Under Wraps",
-    "movie-plot": "A comedy-adventure in which three twelve-year-olds have a close encounter with a 3,000-year-old mummy. Marshall, Gilbert and Amy accidentally set the mummy free, but if they don't get him back to his resting place by midnight on Halloween, he'll turn into dust and lose his only chance of being reunited with his long-lost love.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/wgq6xA57hLo6c7vCDClUKs8kpQk.jpg"
-  },
-
-  {
-    "id": "7",
-    "movie-name": "Don't look under the bed",
-    "movie-plot": "A girl calls on her brother's imaginary friend to banish a mischievous boogeyman who has framed her for his pranks.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/hsa9gmUnaWPnsD7EBcsxqo1Rlze.jpg"
-  },
-
-  {
-    "id": "8",
-    "movie-name": "Tower of Terror",
-    "movie-plot": "A disgraced reporter investigates an abandoned luxury hotel where five people mysteriously disappeared sixty years earlier.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/4AUcvFKrP4ke8pTTAvkS6OHuDqn.jpg"
-  },
-
-  {
-    "id": "9",
-    "movie-name": "The Little Vampire",
-    "movie-plot": "Based on the popular books, the story tells of Tony who wants a friend to add some adventure to his life. What he gets is Rudolph, a vampire kid with a good appetite. The two end up inseparable, but their fun is cut short when all the hopes of the vampire race could be gone forever in single night. With Tony's access to the daytime world, he helps them to find what they've always wanted.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/zBGfZGKX3KJnljxsX6r24lzRe0i.jpg"
-  },
-
-  {
-    "id": "10",
-    "movie-name": "Little monsters",
-    "movie-plot": "A washed-up musician teams up with a teacher and a kids show personality to protect young children from a sudden outbreak of zombies.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/vN5wqEsnvBkkh1zFYGmn5zg6Wh4.jpg"
-  },
-
-  {
-    "id": "11",
-    "movie-name": "The Haunted Mansion",
-    "movie-plot": "Workaholic Jim Evers and his wife/business partner Sara get a call one night from a mansion owner, Edward Gracey, who wants to sell his house. Once the Evers family arrive at the mansion, a torrential thunderstorm of mysterious origin strands them with the brooding, eccentric Gracey, his mysterious butler, and a variety of residents both seen and unseen.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/7dDlxFxaiXgWefFGEpDxbFRgqJM.jpg"
-  },
-
-  {
-    "id": "12",
+    "id": "3",
     "movie-name": "Monsters, Inc.",
     "movie-plot": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
     "movie-poster": "https://image.tmdb.org/t/p/original/sgheSKxZkttIe8ONsf2sWXPgip3.jpg"
   },
 
   {
-    "id": "13",
-    "movie-name": "Beetlejuice",
-    "movie-plot": "A newly dead New England couple seeks help from a deranged demon exorcist to scare an affluent New York family out of their home.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg"
-  },
-
-  {
-    "id": "14",
-    "movie-name": "The Addams Family",
-    "movie-plot": "When a man claiming to be long-lost Uncle Fester reappears after 25 years lost, the family plans a celebration to wake the dead. But the kids barely have time to warm up the electric chair before Morticia begins to suspect Fester is fraud when he can't recall any of the details of Fester's life.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/qFf8anju5f2epI0my8RdwwIXFIP.jpg"
-  },
-
-  {
-    "id": "15",
-    "movie-name": "Mom's got a date with a Vampire",
-    "movie-plot": "The Hansen kids are in a jam. Adam and his best friend Duffy have gotten their hands on some tickets for the Headless Horseman concert, and his sister Chelsea has a date with her dreamy boyfriend Peter. The only problem is they're both grounded. Chelsea and Adam will do whatever it takes to get their mom Lynette out of the house, even if it includes a chance meeting with a very mysterious man. Everything seems to go according to plan until their little brother Taylor realizes that this stranger might be a vampire.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/ad9CKkOx459IcElpHevKfy9Jpbw.jpg"
-  },
-
-  {
-    "id": "16",
-    "movie-name": "Twitches",
-    "movie-plot": "Twins separated at birth, Camryn and Alex meet by chance for the first time on their 21st birthday and discover they're witches with the power to save their homeland of Coventry from the evil that threatens it. But when Camryn leaves Alex to face the darkness alone, will Coventry be doomed? Or will the sisters multiply their magic by standing together?",
-    "movie-poster": "https://image.tmdb.org/t/p/original/oQ2wWWefU2flwuPgdIkLGhPq6Tk.jpg"
-  },
-
-  {
-    "id": "17",
-    "movie-name": "Harry Potter and the Philosopher's Stone",
-    "movie-plot": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
-  },
-
-  {
-    "id": "18",
-    "movie-name": "Double, Double, Toil and Trouble",
-    "movie-plot": "On Halloween night, two precocious little girls try to save their parents from their nasty old capitalist aunt's greedy clutches. Magic abounds and they meet mysterious new friends along the way.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/3nMrq5z9b8pADKGop7aAFk0DUtP.jpg"
-  },
-
-  {
-    "id": "19",
-    "movie-name": "Monster House",
-    "movie-plot": "Monsters under the bed are scary enough, but what happens when an entire house is out to get you? Three teens aim to find out when they go up against a decrepit neighboring home and unlock its frightening secrets.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/zCRPr4bkO3ae0U1134vJ39xZnAG.jpg"
-  },
-
-  {
-    "id": "20",
+    "id": "4",
     "movie-name": "Coraline",
     "movie-plot": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
     "movie-poster": "https://image.tmdb.org/t/p/original/nUiumSEJAHtlmtOptoHEbhWJXk9.jpg"
   },
 
   {
-    "id": "21",
-    "movie-name": "Matilda",
-    "movie-plot": "Matilda Wormwood is an exquisite and intelligent little girl. Unfortunately, her parents, Harry and Zinnia misunderstand her because they think she is so different. As time passes, she finally starts school and has a kind teacher, loyal friends, and a sadistic headmistress. As she gets fed up with the constant cruelty, she begins to realize that she has a gift of telekinetic powers. After some days of practice, she suddenly turns the tables to stand up to Harry and Zinnia and outwit the headmistress.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/wYoDpWInsBEVSmWStnRH06ddoyk.jpg"
-  },
-
-  {
-    "id": "22",
+    "id": "5",
     "movie-name": "Ghostbusters",
     "movie-plot": "After losing their academic posts at a prestigious university, a team of parapsychologists goes into business as proton-pack-toting 'ghostbusters' who exterminate ghouls, hobgoblins and supernatural pests of all stripes. An ad campaign pays off when a knockout cellist hires the squad to purge her swanky digs of demons that appear to be living in her refrigerator.",
     "movie-poster": "https://image.tmdb.org/t/p/original/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg"
   },
 
   {
-    "id": "23",
-    "movie-name": "The Nightmare before Christmas",
-    "movie-plot": "Tired of scaring humans every October 31 with the same old bag of tricks, Jack Skellington, the spindly king of Halloween Town, kidnaps Santa Claus and plans to deliver shrunken heads and other ghoulish gifts to children on Christmas morning. But as Christmas approaches, Jack's rag-doll girlfriend, Sally, tries to foil his misguided plans.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg"
-  },
-
-  {
-    "id": "24",
-    "movie-name": "Frankenweenie",
-    "movie-plot": "When a car hits young Victor's pet dog Sparky, Victor decides to bring him back to life the only way he knows how. But when the bolt-necked 'monster' wreaks havoc and terror in the hearts of Victor's neighbors, he has to convince them that Sparky's still the good, loyal friend he was.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/yGjVbLVdZRBlZTTQVBsj2KUjL1s.jpg"
-  },
-
-  {
-    "id": "25",
-    "movie-name": "Edward Scissorhands",
-    "movie-plot": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg"
-  },
-
-  {
-    "id": "26",
-    "movie-name": "Halloween",
-    "movie-plot": "The early years of young Michael Myers and the events leading up to his fateful Halloween night murder rampage in the quiet town of Haddonfield, Illinois.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/cD8JrfSEI4j7WVnKM1GdiYzMoUh.jpg"
-  },
-
-  {
-    "id": "27",
-    "movie-name": "Sleepy Hollow",
-    "movie-plot": "Skeptical young detective Ichabod Crane gets transferred to the hamlet of Sleepy Hollow, New York, where he is tasked with investigating the decapitations of three people - murders the townsfolk attribute to a legendary specter, The Headless Horseman.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/uZNxJW7ygEHizeHOp7Nw9ysf4QJ.jpg"
-  },
-
-  {
-    "id": "28",
-    "movie-name": "The Craft",
-    "movie-plot": "A Catholic school newcomer falls in with a clique of teen witches who wield their powers against all who dare to cross them -- be they teachers, rivals or meddlesome parents.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/8bW2RdRkloYtEPhbQZN4wcdmJP4.jpg"
-  },
-
-  {
-    "id": "29",
+    "id": "6",
     "movie-name": "Saw",
     "movie-plot": "Two men wake up to find themselves shackled in a grimy, abandoned bathroom. As they struggle to comprehend their predicament, they discover a disturbing tape left behind by the sadistic mastermind known as Jigsaw. With a chilling voice and cryptic instructions, Jigsaw informs them that they must partake in a gruesome game in order to secure their freedom.",
     "movie-poster": "https://image.tmdb.org/t/p/original/harQifr8kpIVqlLP41kTR058LZB.jpg"
   },
 
   {
-    "id": "30",
-    "movie-name": "The Exorcist",
-    "movie-plot": "When a charming 12-year-old girl takes on the characteristics and voices of others, doctors say there is nothing they can do. As people begin to die, the girl's mother realizes her daughter has been possessed by the devil - and that her daughter's only possible hope lies with two priests and the ancient rite of demonic exorcism.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg"
-  },
-
-  {
-    "id": "31",
-    "movie-name": "Friday the 13th",
-    "movie-plot": "A group of young adults visit a boarded up campsite named Crystal Lake where they soon encounter the mysterious Jason Voorhees and his deadly intentions.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/qZoxs2rvM23GmFvk2ILiogEvUIy.jpg"
-  },
-
-  {
-    "id": "32",
-    "movie-name": "Chucky",
+    "id": "7",
+    "movie-name": "Child's Play",
     "movie-plot": "An innocent-looking doll is inhabited by the soul of a serial killer who refuses to die.",
     "movie-poster": "https://image.tmdb.org/t/p/original/tiGJO2QHEqZcq5cPNGmqViswzpy.jpg"
   },
 
   {
-    "id": "33",
+    "id": "8",
     "movie-name": "Texas Chainsaw Massacre",
     "movie-plot": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
     "movie-poster": "https://image.tmdb.org/t/p/original/qJ9Cw1J4EmhBApoue4qlhqVrCZ7.jpg"
   },
 
   {
-    "id": "34",
-    "movie-name": "Nightmare on Elm Street",
-    "movie-plot": "Teenagers in a small town are dropping like flies, apparently in the grip of mass hysteria causing their suicides. A cop's daughter, Nancy Thompson, traces the cause to child molester Fred Krueger, who was burned alive by angry parents many years before. Krueger has now come back in the dreams of his killers' children, claiming their lives as his revenge. Nancy and her boyfriend, Glen, must devise a plan to lure the monster out of the realm of nightmares and into the real world...",
-    "movie-poster": "https://image.tmdb.org/t/p/original/tUA9rsGJfAVMPhd4LBoVZGcIGQu.jpg"
-  },
-
-  {
-    "id": "35",
-    "movie-name": "Paranormal Activity",
-    "movie-plot": "After a young, middle-class couple moves into what seems like a typical suburban house, they become increasingly disturbed by a presence that may or may not be demonic but is certainly the most active in the middle of the night.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/mVJhqhoXqKYCQDmCTLXOdvzhec5.jpg"
-  },
-
-  {
-    "id": "36",
-    "movie-name": "Scream",
-    "movie-plot": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/aXAByjBN8UhaYvotqRCwa5MsMGu.jpg"
-  },
-
-  {
-    "id": "37",
-    "movie-name": "The Strangers",
-    "movie-plot": "After a 4 a.m. knock at the door and haunting voices, Kristen McKay and James Hoyt's remote getaway becomes a psychological night of terror as three masked strangers invade. Now they must go far beyond what they thought themselves capable of if they hope to survive.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/gwsg4qFmLOvlhwXj4OZuxfFUdP0.jpg"
-  },
-
-  {
-    "id": "38",
-    "movie-name": "Poltergeist",
-    "movie-plot": "A family's suburban home is invaded by angry spirits. When the terrifying apparitions escalate their attacks and take the youngest daughter, the family must come together to rescue her.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/zw5RhNAVa7g6pX0KGeNx9EmS7Je.jpg"
-  },
-
-  {
-    "id": "39",
-    "movie-name": "The Sixth Sense",
-    "movie-plot": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/uz1ZEfWHXuM5bBClPNvgr9RBaQA.jpg"
-  },
-
-  {
-    "id": "40",
+    "id": "9",
     "movie-name": "The Blair Witch Project",
     "movie-plot": "In October of 1994 three student filmmakers disappeared in the woods near Burkittsville, Maryland, while shooting a documentary. A year later their footage was found.",
     "movie-poster": "https://image.tmdb.org/t/p/original/tBV4INmItU7nRQtDNHRmgFcb7RC.jpg"
   },
 
   {
-    "id": "41",
-    "movie-name": "Carrie",
-    "movie-plot": "Withdrawn and sensitive teen Carrie White faces taunting from classmates at school and abuse from her fanatically pious mother. When strange occurrences start happening around Carrie, she begins to suspect that she has supernatural powers.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/lY6A9sCdshBxdOpSwgbILzjxuXh.jpg"
-  },
-
-  {
-    "id": "42",
-    "movie-name": "The House on Haunted Hill",
-    "movie-plot": "In 1931, the patients at the Vannacutt Psychiatric Institute for the Criminally Insane revolt with a prison riot against the staff, headed by the sadistic Dr. Richard B. Vannacutt. The patients start a fire which engulfs the building, killing all of the inmates and all but five of Vannacutt's staff.",
-    "movie-poster": "https://m.media-amazon.com/images/M/MV5BMGY4MDg1MzQtNGI4MC00YzY3LWE5NjctMjQyY2E2NzBkZGUzXkEyXkFqcGc@._V1_.jpg"
-  },
-
-  {
-    "id": "43",
-    "movie-name": "The Amityville Horror",
-    "movie-plot": "George Lutz, his wife Kathy, and their three children have just moved into a beautiful, and improbably cheap, Dutch colonial mansion nestled in the sleepy coastal town of Amityville, Long Island. However, their dream home is concealing a horrific past and soon each member of the Lutz family is plagued with increasingly strange and violent visions and impulses.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/4QK3JsMlA5uLZzSsh2Ld4kiQFPs.jpg"
-  },
-
-  {
-    "id": "44",
-    "movie-name": "Insidious",
-    "movie-plot": "A family discovers that dark spirits have invaded their home after their son inexplicably falls into an endless sleep. When they reach out to a professional for help, they learn things are a lot more personal than they thought.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/tmlDFIUpGRKiuWm9Ixc6CYDk4y0.jpg"
-  },
-
-  {
-    "id": "45",
+    "id": "10",
     "movie-name": "The Shining",
     "movie-plot": "Jack Torrance accepts a caretaker job at the Overlook Hotel, where he, along with his wife Wendy and their son Danny, must live isolated from the rest of the world for the winter. But they aren't prepared for the madness that lurks within.",
     "movie-poster": "https://image.tmdb.org/t/p/original/xazWoLealQwEgqZ89MLZklLZD3k.jpg"
   },
-
-  {
-    "id": "46",
-    "movie-name": "The Ring",
-    "movie-plot": "Rachel Keller is a journalist investigating a videotape that may have killed four teenagers. There is an urban legend about this tape: the viewer will die seven days after watching it. Rachel tracks down the video... and watches it. Now she has just seven days to unravel the mystery of the Ring so she can save herself and her son.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/33rI0FWQZ5QssXR0fwsrIH0d33w.jpg"
-  },
-
-  {
-    "id": "47",
-    "movie-name": "Signs",
-    "movie-plot": "A family living on a farm finds mysterious crop circles in their fields which suggests something more frightening to come.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/hyZkNEbNgnciUVTyu4NZTjlCh4L.jpg"
-  },
-
-  {
-    "id": "48",
-    "movie-name": "Evil Dead",
-    "movie-plot": "Mia, a drug addict, is determined to kick the habit. To that end, she asks her brother, David, his girlfriend, Natalie and their friends Olivia and Eric to accompany her to their family's remote forest cabin to help her through withdrawal. Eric finds a mysterious Book of the Dead at the cabin and reads aloud from it, awakening an ancient demon. All hell breaks loose when the malevolent entity possesses Mia.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/1gDV0Lm9y8ufIKzyf0h0GBgb9Zj.jpg"
-  },
-
-  {
-    "id": "49",
-    "movie-name": "Final Destination",
-    "movie-plot": "After a teenager has a terrifying vision of him and his friends dying in a plane crash, he prevents the accident only to have Death hunt them down, one by one.",
-    "movie-poster": "https://image.tmdb.org/t/p/original/8LQJAuAnDCspYTVYk8ce7ZuZqWp.jpg"
-  },
-
-  {
-    "id": "50",
-    "movie-name": "House of the 1000 Corpses",
-    "movie-plot": "On October 30, 1977, amateur criminals Killer Karl and Richard Wick attempt an armed robbery at a gas station/horror museum, but are killed by the owner, Captain Spaulding, and his assistant, Ravelli. Later that night, Jerry Goldsmith, Bill Hudley, Mary Knowles, and Denise Willis are on the road in hopes of writing a book on offbeat roadside attractions. When the four meet Spaulding, who is also the owner of 'The Museum of Monsters & Madmen', they learn of the local legend of Dr. Satan.",
-    "movie-poster": "https://postercity.com.ar/wp-content/uploads/2019/05/House-of-1000-corpses-low.jpg"
-  }
+  { "id" : "11",
+"movie-name" : "Terrifier",
+"movie}
 ]
+Terrifier 
+IT 
+Sinister 
+The Orphan 
+Night of the Living Dead 

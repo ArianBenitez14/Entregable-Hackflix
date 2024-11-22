@@ -16,7 +16,7 @@ function MovieDetails() {
         const data = await response.json();
         setMovie(data);
       } catch (error) {
-        console.error('Error al cargar los detalles de l: ', error);
+        console.error('Error al cargar los detalles: ', error);
       }
     };
 

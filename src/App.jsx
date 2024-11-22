@@ -4,6 +4,7 @@ import './App.css';
 import { Rating } from 'react-simple-star-rating';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MovieDetails from './components/MovieDetails';
+import Recommendations from './components/Recommendations';
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -95,6 +96,13 @@ function App() {
             <div className="container-fluid gap-2">
               <button
                 className="color-buttons"
+                onClick={() => window.location.assign('/recomendaciones')}
+              >
+                <strong>Recomendaciones</strong>
+              </button>
+
+              <button
+                className="color-buttons"
                 onClick={() => handleGenreClick(28)}
               >
                 <strong>Acción</strong>
@@ -173,6 +181,7 @@ function App() {
           />
           {/* ruta detalles */}
           <Route path="/movie/:id" element={<MovieDetails />} />
+          <Route path="/recomendaciones" element={<Recommendations />} />
         </Routes>
       </div>
     </Router>
