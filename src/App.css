@@ -37,3 +37,7 @@ h1 {
 .texto-rating {
   color: rgb(248, 0, 0);
 }
+
+.stars {
+  margin-right: 30px;
+}

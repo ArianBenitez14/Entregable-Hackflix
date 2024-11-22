@@ -1,5 +1,5 @@
 import React from 'react';
-import MovieCard from './MovieCard';
+import { Link } from 'react-router-dom';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 const MovieList = ({ loadMoreMovies, hasMore, movies }) => {
@@ -13,7 +13,18 @@ const MovieList = ({ loadMoreMovies, hasMore, movies }) => {
       <div className="row no-gutters">
         {movies.map((movie) => (
           <div className="col-3 mb-4" key={movie.id}>
-            <MovieCard movie={movie} />
+            <Link
+              to={`/movie/${movie.id}`}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <div className="card">
+                <img
+                  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                  className="card-img-top"
+                  alt={movie.title}
+                />
+              </div>
+            </Link>
           </div>
         ))}
       </div>
