@@ -6,9 +6,10 @@ const MovieList = ({ loadMoreMovies, hasMore, movies }) => {
   return (
     <InfiniteScroll
       dataLength={movies.length}
-      next={loadMoreMovies}
+      next={loadMoreMovies} 
       hasMore={hasMore}
       loader={<p className="text-center">Cargando más películas...</p>}
+      endMessage={<p className="text-center">¡No hay más películas!</p>} 
     >
       <div className="row no-gutters">
         {movies.map((movie) => (
